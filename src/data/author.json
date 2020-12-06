@@ -1,0 +1,24 @@
+{
+    "name": "Josh Seba",
+    "occupation": "Software Engineer",
+    "location": "Seattle, WA",
+    "avatar": "profile.jpg",
+    "pronouns": "he/him",
+    "email": "me@jseba.dev",
+    "telephone": "+1 816 401 2696",
+    "website": "https://jseba.dev",
+    "skills": [
+        "C++ (11/14/17)",
+        "Go",
+        "Win32, WinRT",
+        "Boost",
+        "Git"
+    ],
+    "social": [
+        {
+            "name": "LinkedIn",
+            "user": "Josh-Seba",
+            "url": "https://www.linkedin.com/in/josh-seba"
+        }
+    ]
+}
