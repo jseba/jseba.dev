@@ -1,5 +1,5 @@
 # www.robotstxt.org
 
-# Allow crawling of all content
+# Allow crawling of all content, except uploaded files
 User-agent: *
-Disallow: 
+Disallow: /assets/files
