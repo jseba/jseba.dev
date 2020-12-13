@@ -33,5 +33,5 @@ I've also worked on some smaller projects for the recently announced Windows 10X
 operating system. One was to ensure that the new operating system can be
 certified by the Wi-Fi Alliance (WFA) for proper Wi-Fi operation by updating the
 Microsoft toolkit used during the certification process. Another was to bring up
-support for NFC hardware by porting the service required to interface with the
-driver.
+support for NFC hardware by bringing up the service required to interface with
+the driver.
