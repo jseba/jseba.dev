@@ -1,5 +1,5 @@
 {% if entries %}
-<ol class="entrylist" reversed>
+<ol class="entrylist">
     {% for entry in entries %}
     <li class="entrylist__item h-event {% if microformat %}{{ microformat }}{% endif %}">
         {% include "entry.njk" %}
