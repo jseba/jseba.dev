@@ -19,25 +19,5 @@ module.exports = {
             })
         }
         return content
-    },
-
-    critical: async function (content, outputPath) {
-        if (shouldTransformHTML(outputPath) && isHomePage(outputPath)) {
-            try {
-                const critical = await import('critical')
-                const config = {
-                    base: `${buildDir}/`,
-                    html: content,
-                    inline: true,
-                    width: 1280,
-                    height: 1000
-                }
-                const html = await critical.generate(config).html
-                return html
-            } catch (err) {
-                console.error(err)
-            }
-        }
-        return content
     }
 }
