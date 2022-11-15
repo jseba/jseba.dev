@@ -1,5 +1,4 @@
 const htmlmin = require('html-minifier')
-const critical = require('critical')
 const buildDir = 'dist'
 
 const shouldTransformHTML = (outputPath) =>
@@ -25,15 +24,15 @@ module.exports = {
     critical: async function (content, outputPath) {
         if (shouldTransformHTML(outputPath) && isHomePage(outputPath)) {
             try {
+                const critical = await import('critical')
                 const config = {
                     base: `${buildDir}/`,
                     html: content,
                     inline: true,
                     width: 1280,
-                    height: 1000,
-                    timeout: 30000
+                    height: 1000
                 }
-                const html = await critical.generate(config)
+                const html = await critical.generate(config).html
                 return html
             } catch (err) {
                 console.error(err)
