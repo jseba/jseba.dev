@@ -4,6 +4,7 @@ organization: Microsoft
 organizationUrl: https://www.microsoft.com
 location: Redmond, WA
 start: 2017-10-30
+end: 2021-02-18
 ---
 
 At Microsoft, I worked on the wireless networking and Miracast team. I was
