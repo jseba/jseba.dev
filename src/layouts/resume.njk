@@ -16,7 +16,7 @@ layout: base
 
         <section class="section" id="section-experience">
             <h2 class="section__title">{{ strings.titles.experience }}</h2>
-            {% set entries = collections.work %}
+            {% set entries = collections.work | reverse %}
             {% set microformat = "p-experience" %}
             {% include "entrylist.njk" %}
         </section>
