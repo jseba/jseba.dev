@@ -58,3 +58,13 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+
+details[open] summary ~ * {
+  animation: spoiler 0.1s ease-in;
+  background: $gray-lightest;
+}
+
+@keyframes spoiler {
+  0%    {opacity: 0; background: $gray;}
+  100%  {opacity: 1; background: $gray-light;}
+}
