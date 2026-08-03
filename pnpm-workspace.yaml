@@ -1,0 +1,9 @@
+packages:
+  - 'src/**'
+  - 'utils/*'
+  - '!dist/**'
+allowBuilds:
+  '@parcel/watcher': true
+  node: true
+  node-sass: true
+  puppeteer: true
