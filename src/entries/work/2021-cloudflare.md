@@ -7,7 +7,7 @@ start: 2021-02-21
 end: 2026-05-15
 ---
 
-At Cloudflare, I was responsible for the Edge Container  (C4). This platform
+At Cloudflare, I was responsible for the Edge Container Platform. This platform
 started as a way for internal teams to deploy containers to Cloudflare's Edge
 locations, and grew into the Workers Containers product that allowed customers
 to attach containers to their Workers and run arbitrary code on Cloudflare.
